@@ -19,4 +19,18 @@ body {
     color: #eee;
     padding: 1rem;
     margin-top: 0;
+    break-inside: avoid;
+    break-before: column;
+}
+ 
+.columns .quote {
+    color : #333;
+    column-span: all;
+    font-size: 3rem;
+    text-align: center;
+    margin : 2rem;
+}
+
+.nowrap {
+    white-space: nowrap;
 }
